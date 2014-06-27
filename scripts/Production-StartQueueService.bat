@@ -1,0 +1,1 @@
+wscript.exe "C:\intranet-apps\epos\scripts\invisible.vbs" "C:\intranet-apps\epos\scripts\QueueService.bat"

@@ -1,0 +1,262 @@
+/* line 1, ../sass/main.scss */
+.lato, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+/* line 2, ../sass/main.scss */
+h1 {
+  letter-spacing: -1px;
+}
+
+/* line 3, ../sass/main.scss */
+h1 small {
+  letter-spacing: -1.5px;
+}
+
+/* line 5, ../sass/main.scss */
+.centered {
+  text-align: center;
+}
+
+/* line 6, ../sass/main.scss */
+.text-centered {
+  text-align: center;
+}
+
+/* line 17, ../sass/main.scss */
+.poTable thead th:nth-child(1),
+.poTable thead th:nth-child(2),
+.poTable thead th:nth-child(4),
+.poTable thead th:nth-child(5),
+.poTable thead th:nth-child(6),
+.poTable thead th:nth-child(7),
+.poTable thead th:nth-child(8) {
+  text-align: center;
+}
+/* line 24, ../sass/main.scss */
+.poTable tbody td:nth-child(1),
+.poTable tbody td:nth-child(2),
+.poTable tbody td:nth-child(4) {
+  text-align: center;
+}
+
+/*************************************
+ * Line Item Styling
+ * Route:: pos/create
+ *************************************/
+/* line 37, ../sass/main.scss */
+.poFormTable thead th {
+  text-align: center;
+}
+/* line 40, ../sass/main.scss */
+.poFormTable thead th:nth-child(2) {
+  text-align: left;
+  width: 300px;
+}
+/* line 44, ../sass/main.scss */
+.poFormTable thead th:nth-child(3) {
+  text-align: center;
+  min-width: 80px;
+  width: auto;
+}
+/* line 51, ../sass/main.scss */
+.poFormTable tbody td {
+  text-align: center;
+}
+/* line 54, ../sass/main.scss */
+.poFormTable tbody td:nth-child(2) {
+  text-align: left;
+  width: 300px;
+}
+/* line 58, ../sass/main.scss */
+.poFormTable tbody td:nth-child(3) {
+  text-align: center;
+}
+/* line 60, ../sass/main.scss */
+.poFormTable tbody td:nth-child(3) input {
+  text-align: center;
+}
+
+/*************************************
+ * Table Styling
+ * Route:: /approvals
+ *************************************/
+/* line 75, ../sass/main.scss */
+body#approvals .poTable thead th:nth-child(2) {
+  text-align: left;
+}
+/* line 80, ../sass/main.scss */
+body#approvals .poTable tbody td:nth-child(2) {
+  text-align: left;
+}
+
+/* line 90, ../sass/main.scss */
+body#approvals-my .poTable thead th:nth-child(2) {
+  text-align: left;
+}
+/* line 95, ../sass/main.scss */
+body#approvals-my .poTable tbody td:nth-child(2) {
+  text-align: left;
+}
+
+/*************************************
+ * Button Styling
+ *************************************/
+/* line 105, ../sass/main.scss */
+.ui-group-buttons .or {
+  position: relative;
+  float: left;
+  width: .3em;
+  height: 1.3em;
+  z-index: 3;
+  font-size: 12px;
+}
+
+/* line 106, ../sass/main.scss */
+.ui-group-buttons .or:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: 'or';
+  background-color: #5a5a5a;
+  margin-top: -0.1em;
+  margin-left: -0.9em;
+  width: 1.8em;
+  height: 1.8em;
+  line-height: 1.55;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 500px;
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 107, ../sass/main.scss */
+.ui-group-buttons .or:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: ' ';
+  width: .3em;
+  height: 2.84em;
+  background-color: rgba(0, 0, 0, 0);
+  border-top: .6em solid #5a5a5a;
+  border-bottom: .6em solid #5a5a5a;
+}
+
+/* line 108, ../sass/main.scss */
+.ui-group-buttons .or.or-lg {
+  height: 1.3em;
+  font-size: 16px;
+}
+
+/* line 109, ../sass/main.scss */
+.ui-group-buttons .or.or-lg:after {
+  height: 2.85em;
+}
+
+/* line 110, ../sass/main.scss */
+.ui-group-buttons .or.or-sm {
+  height: 1em;
+}
+
+/* line 111, ../sass/main.scss */
+.ui-group-buttons .or.or-sm:after {
+  height: 2.5em;
+}
+
+/* line 112, ../sass/main.scss */
+.ui-group-buttons .or.or-xs {
+  height: .25em;
+}
+
+/* line 113, ../sass/main.scss */
+.ui-group-buttons .or.or-xs:after {
+  height: 1.84em;
+  z-index: -1000;
+}
+
+/* line 114, ../sass/main.scss */
+.ui-group-buttons {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 115, ../sass/main.scss */
+.ui-group-buttons:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 116, ../sass/main.scss */
+.ui-group-buttons .btn {
+  float: left;
+  border-radius: 0;
+}
+
+/* line 117, ../sass/main.scss */
+.ui-group-buttons .btn:first-child {
+  margin-left: 0;
+  border-top-left-radius: .25em;
+  border-bottom-left-radius: .25em;
+  padding-right: 15px;
+}
+
+/* line 118, ../sass/main.scss */
+.ui-group-buttons .btn:last-child {
+  border-top-right-radius: .25em;
+  border-bottom-right-radius: .25em;
+  padding-left: 15px;
+}
+
+/* line 120, ../sass/main.scss */
+.navbar-static-top {
+  box-shadow: 0 0 5px #ccc;
+  -moz-box-shadow: 0 0 5px #ccc;
+  -webmkit-box-shadow: 0 0 5px #ccc;
+}
+
+/* line 127, ../sass/main.scss */
+.myTeamPos,
+.submitNewPo {
+  box-shadow: 0 10px 20px #aaa;
+  -moz-box-shadow: 0 10px 20px #aaa;
+  -webmkit-box-shadow: 0 10px 20px #aaa;
+}
+
+/* line 134, ../sass/main.scss */
+h1 i.fa, h2 i.fa, h3 i.fa, h4 i.fa, h5 i.fa, h6 i.fa {
+  color: #5ea2b9;
+}
+
+/* line 138, ../sass/main.scss */
+.navbar-blue {
+  background: #114477;
+  color: #fff;
+}
+/* line 141, ../sass/main.scss */
+.navbar-blue .navbar-header > .navbar-brand {
+  font-family: "Lato";
+}
+/* line 144, ../sass/main.scss */
+.navbar-blue .navbar-brand, .navbar-blue .navbar-nav > li > a {
+  color: #eeeeee;
+}
+/* line 147, ../sass/main.scss */
+.navbar-blue .navbar-nav > li.active a {
+  background: #036;
+}
+/* line 150, ../sass/main.scss */
+.navbar-blue .navbar-text {
+  color: #eee;
+}

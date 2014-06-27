@@ -1,0 +1,12 @@
+{
+  "name": "EPOS",
+  "dependencies": {
+    "bootstrap": "~3.0.3",
+    "font-awesome": "~4.0.3",
+    "bootstrap-datepicker": "~1.2.0",
+    "modernizr": "~2.7.1"
+  },
+  "resolutions": {
+    "bootstrap": "~3.0.3"
+  }
+}
